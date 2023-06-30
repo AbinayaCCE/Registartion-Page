@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration page</title>
     <link rel="icon" href="" />
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body style="background-image: url();">
+  <body>
     <div class="container">
       <div class="title">Registration</div>
       <form action="#">
@@ -29,49 +30,41 @@
           </div>
         </div>
         <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
             <span class="gender-title">Gender</span>
             <div class="category">
-                <label for="">
-                    <span class="dot one">
+                <label for="dot-1">
+                    <span class="dot one"></span>
                         <span class="gender">Male</span>
-                    </span>
                 </label>
-                <label for="">
-                    <span class="dot one">
+                <label for="dot-2">
+                    <span class="dot two"></span>
                         <span class="gender">Female</span>
-                    </span>
                 </label>
-                <label for="">
-                    <span class="dot one">
+                <label for="dot-3">
+                    <span class="dot three"></span>
                         <span class="gender">Prefer not to say</span>
-                    </span>
                 </label>
             </div>
         </div>
-        <div class="payment-details">
-            <span class="payment-title">Prefer Amount</span>
-            <div class="category">
-                <label for="">
-                    <span class="dot one">
-                        <span class="gender"> ₹500</span>
-                    </span>
-                </label>
-                <label for="">
-                    <span class="dot one">
-                        <span class="gender"> ₹1000</span>
-                    </span>
-                </label>
-                <label for="">
-                    <span class="dot one">
-                        <span class="gender"> ₹1500</span>
-                    </span>
-                </label>
-            </div>
-        </div>
+        <div class="pay">
+          <span class="pay-details">Select Amount to pay:</span>
+        <select id="payment">
+          <option value=" ">Select Amount</option>
+          <option value="500">₹500(Front Stage)   </option>
+          <option value="1000 ">₹
+1000   (middle)       </option>
+          <option value="1500">₹
+1500   (balcony)       </option>
+        </select>
+      </div>
         <div class="button">
-            <input type="submit" value="Register">
+            <input type=button onclick="location.href='index1.html' " target="blank"   value="Register" >
         </div>
       </form>
     </div>
+  </div>
   </body>
 </html>

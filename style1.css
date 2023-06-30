@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lora:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url(images/concert.jpg);
+    background-size:cover;
+}
+
+.text{
+    font-family: 'Caprasimo', cursive;
+    font-size:40px;
+    font-weight: bolder;
+    color: rgb(123, 50, 67);
+    padding-bottom: 300px;;
+    padding-left: 35px;
+}
+
